@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ascii Games: Play a collection of ASCII games online. Enjoy classic games with a retro feel.">
+    <title>Ascii.Games | Play Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-30WKN2NDHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-30WKN2NDHT');
+</script>
+
+<body>
+    <div id="header"></div>
+    <main>
+        <section id="intro">
+            <h2>Welcome to Ascii.Games</h2>
+            <p>Explore our collection of ASCII games that you can play online. Experience the charm of retro gaming with a modern twist.</p>
+        </section>
+        <section id="search">
+            <h2>Search for Games</h2>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search for games..." required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="popular-games">
+            <h2>Popular Games</h2>
+            <div id="gamesList" class="games-grid">
+                <a href="/games/snake.html" class="game-tile">Snake</a>
+                <a href="/games/pirate_adventure/index.html" class="game-tile">Pirate Adventure</a>
+                <a href="/games/visual-novel/index.html" class="game-tile">Visual Novel</a>
+                <a href="/games/toilet-simulator/index.html" class="game-tile">Toilet Simulator</a>
+            </div>
+        </section>
+    </main>
+    <div id="footer"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>

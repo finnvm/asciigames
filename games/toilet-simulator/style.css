@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game {
+    text-align: center;
+}
+
+#toilet-art {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+#actions {
+    margin-top: 20px;
+}
+
+#actions button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}

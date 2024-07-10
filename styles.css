@@ -1,0 +1,100 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #0f0;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+#search input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    max-width: 80%;
+    margin-right: 10px;
+    border: 1px solid #0f0;
+    background-color: #000;
+    color: #0f0;
+}
+
+#search button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0f0;
+    background-color: #000;
+    color: #0f0;
+}
+
+.games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.game-tile {
+    background-color: #000;
+    color: #0f0;
+    padding: 20px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #0f0;
+    transition: transform 0.2s, background-color 0.2s;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.game-tile:hover {
+    transform: scale(1.05);
+    background-color: #111;
+}
+
+footer {
+    background: #000;
+    color: #0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #0f0;
+    text-decoration: none;
+    margin: 0 5px;
+}

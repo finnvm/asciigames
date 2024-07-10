@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: #0f0;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    white-space: pre;
+    margin-top: 20px;
+}
